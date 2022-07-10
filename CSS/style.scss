@@ -1,0 +1,13 @@
+$mainColor: aquamarine;
+$mainFont: monospase;
+
+body
+{
+    background-color: $mainColor;
+    color: $mainColor;
+    font-family: $mainFont;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
