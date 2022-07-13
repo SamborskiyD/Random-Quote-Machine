@@ -1,10 +1,10 @@
-$mainColor: rgb(252, 201, 139);
+
 $mainFont: monospase;
 
 body
 {
-    background-color: $mainColor;
-    color: $mainColor;
+    background-color: rgb(252, 201, 139);
+    color: rgb(252, 201, 139);
     font-family: $mainFont;
     font-size: 2.6rem;
     display: flex;
@@ -46,7 +46,7 @@ body
     {
         text-decoration: none;
     }
-    a:active
+    a:hover
     {
         color: aliceblue;
     }
@@ -56,9 +56,9 @@ body
 {
     border: none;
     border-radius: 5px;
-    background-color: $mainColor;
+    background-color: rgb(252, 201, 139);
     color: aliceblue;
-    font-family: monospace;
+    font-family: $mainFont;
     font-size: 1.9rem;
     outline: none;
     text-align: center;
@@ -74,6 +74,4 @@ body
 .button:hover
 {
     opacity: .8;
-    background-color: $mainColor;
-    color: aliceblue;
 }

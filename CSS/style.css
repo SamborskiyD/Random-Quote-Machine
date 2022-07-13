@@ -50,7 +50,7 @@ body {
   text-decoration: none;
 }
 
-#button-box a:active {
+#button-box a:hover {
   color: aliceblue;
 }
 
@@ -59,7 +59,7 @@ body {
   border-radius: 5px;
   background-color: #fcc98b;
   color: aliceblue;
-  font-family: monospace;
+  font-family: monospase;
   font-size: 1.9rem;
   outline: none;
   text-align: center;
@@ -73,7 +73,5 @@ body {
 
 .button:hover {
   opacity: .8;
-  background-color: #fcc98b;
-  color: aliceblue;
 }
 /*# sourceMappingURL=style.css.map */

@@ -8,22 +8,22 @@
         <link rel="stylesheet" href="CSS\style.css">
         <title>Quote Machine</title>
     </head>
-    <body>
+    <body id="myBody">
 
         <div class="container-fluid" id="quote-box">
         
             <div id="text-box">
-                <p id="text">LKJIUIJLKjkljdskljoilkjdmsaljewioqijkldjaioej dlkd;djdsaiokje daioejwq dakeioqwjdlakj wieqojalj </p>
+                <p id="text">Success is not final; failure is not fatal: It is the courage to continue that counts.</p>
             </div>
 
             <div id="author-box">
-                <p id="author">- KLSajlk</p>
+                <p id="author">- Winston S. Churchill</p>
             </div>
             
             <div class="row" id="button-box">
                 <a href="#" type="button" id="copy-quote" class="button">Copy</a>
                 <a href="#" type="button" id="tweet-quote" class="button">Tweet</a>
-                <button class="btn btn-default button" id="new-quote">New quote</button>
+                <button class="btn btn-default button" id="new-quote" onclick="ChangeQoute()">New quote</button>
             </div>
 
         </div>
